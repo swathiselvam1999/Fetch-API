@@ -1,0 +1,146 @@
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right , #0278ae,#a5ecd7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-color 0.3s ease;
+  }
+  .signup-container, .login-container{
+    width: 60%;
+    margin-top: 50px;
+    padding: 30px;
+    background: rgba(225,225,225,0.25)	;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #e8ffc1;
+  }
+  .editable {
+      cursor: pointer;
+  }
+  .error-message {
+      color: black;
+      font-size: 80%;
+      margin-top: 5px;
+  }
+  .navbar{
+    background-color: #0278ae;
+  }
+
+  .navbar-brand h2:hover{
+    color: #e8ffc1;
+    cursor: pointer;
+    transform: scale(1.05); 
+  }
+
+  .navbar-brand h2{
+    text-shadow: 5px 5px 10px gray;
+    letter-spacing: 5px;
+    margin-right: 10% !important;
+    font-size: 250%;
+  }
+  
+  .btn{
+      background-color:#0278ae;
+      color: #e8ffc1;
+      font-size: large;
+      letter-spacing: 2px;
+      border-radius: 20%;
+    }
+  .btn:hover{
+    background-color: #e8ffc1;
+    color: #0278ae;
+    border: 1px solid #e8ffc1;
+  }
+
+  .navbar .nav-link{
+    background-color: #51adcf;
+    border: 2px solid #0278ae;
+    color: #e8ffc1 !important;
+    font-size: large !important;
+    margin: 10px;
+    
+  } 
+
+  .navbar .nav-link:hover{
+    background-color: #e8ffc1;
+    color: #51adcf !important;
+    transition: background-color 0.5s linear;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+
+  .card{
+    background: rgba(225,225,225,0.25)	;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+  }
+
+  .card:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  }
+
+  .card-body{
+    height: 250px;
+    overflow: hidden;  
+    /* to get scroll bar use overflow: auto  */
+  }
+
+  .card-body:hover{
+    background-color:#0278ae;
+    color: #e8ffc1;
+    cursor: pointer;
+  }
+
+  footer{
+    margin-top: 50px;
+    background-color: #0278ae;
+  }
+
+  #customAlertModal .modal-content {
+    background-color:   #a5ecd7 ;
+    color:  #0278ae;
+    border: none;
+    border-radius: 20px;
+  }
+
+  #customAlertModal .modal-title {
+    text-align: center;
+  }
+
+  #customAlertModal .modal-body {
+    text-align: center;
+  }
+  
+  #customAlertModal .modal-header{
+    border-bottom: 1px solid #0278ae;
+  } 
+
+  #customAlertModal .modal-footer {
+    border-top: none;
+    text-align: center;
+  }
+
+  #customAlertModal .btn {
+    margin: 0 auto;
+  }
